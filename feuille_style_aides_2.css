@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+/* Voici les body des differente pages */
+
+.body_home{
+	background-color: #ffecd1;
+	margin-top: 55px;
+	padding-bottom:10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size : 18px;
+	width: 100%;
+	text-align: center;
+	color:white;
+	height: 10%;
+}
+
+.body_Erasmus{
+	background-color: #ff7d00;
+	margin-top: 55px;
+	font-family: 'Montserrat', sans-serif;
+	font-size : 18px;
+	width: 100%;
+	text-align: center;
+	color:white;
+	height: 10%;
+}
+
+.body_formulaire {
+	background-color: #ffecd1;
+	margin-top: 55px;
+	font-family: 'Montserrat', sans-serif;
+	font-size : 18px;
+	width: 100%;
+	text-align: center;
+	color:black;
+	height: 10%;
+}
+
+.body_aides {
+	background-color: #ff7d00;
+	margin-top: 55px;
+	font-family: 'Montserrat', sans-serif;
+	font-size : 18px;
+	width: 100%;
+	text-align: center;
+	color:white;
+	height: 10%;
+}
+
+.body_mentions {
+	background-color: #ff7d00;
+	margin-top: 55px;
+	font-family: 'Montserrat', sans-serif;
+	font-size : 18px;
+	width: 100%;
+	color:white;
+	height: 10%;
+}
+
+.body_vivre {
+	background-color: #ffecd1;
+	margin-top: 55px;
+	font-family: 'Montserrat', sans-serif;
+	font-size : 18px;
+	width: 100%;
+	text-align: center;
+	color:white;
+	height: 10%;
+}
+
+/* Voici les title des pages */
+
+.titre {
+  width:99.3%;
+  background-color: #15616d;
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align: center;
+  color: #FFF
+}
+
+/* page */
+
+.home {
+	font-family: 'Montserrat', sans-serif;
+	font-size : 18px;
+	width: 100%;
+	text-align: center;
+	color:white;
+	height: 80%;
+}
+
+.vivre_pas_cher {
+	font-family: 'Montserrat', sans-serif;
+	font-size : 18px;
+	width: 100%;
+	text-align: center;
+	color:white;
+	height: 80%;
+}
+
+footer{
+	width:99%;
+	background-color:  #001524;
+	padding-top:10px;
+	text-align: center;
+	color: #FFF
+}
+
+/* tableau */
+
+.tab_formulaire {
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size : 14px;
+	width: 100%;
+	text-align: center;
+	height: 10%;
+}
+
+.tab_vivre {
+	width: 100%;
+	color: white;
+	height: 100%;
+}
+
+.tab_aides{
+	width: 100%;
+	color: white;
+	height: 100%;
+}
+
+.tab_mentions{
+	width: 100%;
+	color: white;
+	height: 100%;
+}
+
+.table_aides{
+	background-color : #ff7d00
+}
+
+/* navbar */
+
+.contenu_navbar {
+	border: black;
+	position: fixed; left:0; right:0; top:0;
+	background-color: #ffecd1;
+	text-align: center;
+	height: 5%;
+	font-size : 12px;
+	display : inline-table;
+	margin-left: auto ;
+	margin-right: auto ;
+	width: 100%;
+}
+
+/* logo */
+
+#logo{
+	width:15px;
+	height:15px;
+}
+
+/* nav changmenet de couleur lors du survol */
+
+td a:hover:not(.active) {
+  color: red;
+}
+
+.active {  
+	color: red;
+}
+
+/* La couleur de chaque bouton change lors du survol de la souris */
+
+input[type=submit]:hover{
+  color: green
+}
+
+input[type=reset]:hover{
+  color:red
+}
+
+/* Cellule setting tableau */
+
+.cellule_erasmus {
+	border: 1px solid black;
+	background-color: #15616d;
+}
+
+.cellule_vide {
+	border: none;
+}
+
+.cellule_vivre {
+	border: 1px solid black;
+	background-color: #ff7d00;
+}
+
+table{
+	font-family: 'Montserrat', sans-serif;
+}
+
+a{
+	text-decoration:none;
+}

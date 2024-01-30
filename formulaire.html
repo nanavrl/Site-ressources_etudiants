@@ -1,0 +1,122 @@
+<DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" media="screen" type="text/css" href="feuille_style_aides_2.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<script src="java_projet.js" type="text/javascript"></script>
+	<title>Formulaire </title>
+</head>
+<body class = "body_formulaire">
+<table cellpadding=20 class = "tab_formulaire">
+	<tr><td class = "titre"><h1>Formulaire</h1> </td></tr> <!-- haut de page -->
+	<tr><td> <!-- centre de la page -->
+	<form id="form">
+	<h1 id="titre" onclick="changeCouleur('blue');">FORMULAIRE POUR UNE AIDE PERSONALISEE</h1>
+
+		<label for="prénom">Prénom:<br>
+		<input type="text"id="prénom" required="*" /><br>
+		</label>
+		
+		<label for="nom">Nom:<br>
+		<input type="text"id="nom" required="*" /><br>
+		</label>
+		
+		<label for="date de naissance"> Date de naissance: <br>
+		<input type="date" id="date de naissance" required="*" /><br>
+		</label>
+		
+		<label for="amail">Adresse mail : <br>
+		<input type="text"id="amail" required="*@*" /><br>
+		</label>
+		
+		<label>Numéro de téléphone: <br>
+		<input type="text" id="case" /><br>
+		</label>
+		
+		<label type="formation">Lieu de formation:<br>
+		<input type="text"id="formation" /><br>
+		</label>
+		
+		<label for="ville"> Ville: <br>
+		<input type="text" id="ville" required="*" /><br>
+		</label>
+		
+		<label for="code postal">Code postal:<br>
+		<input type="text" id="code postal" required="*" /><br>
+		</label>
+		
+		<legend> Sur quel type(s) d'aide(s) souhaitez-vous être conseillé ?</legend>
+
+		<input type="checkbox" id="financière"
+		 name="aide" value="financière">
+		<label for="aide1">financière</label>
+
+		<input type="checkbox" id="psychologique"
+		 name="aide" value="psychologique">
+		<label for="aide2">psychologique</label>
+
+		<input type="checkbox" id="recherche de logements"
+		 name="aide" value="logements">
+		<label for="aide3">logements</label>
+
+		<input type="checkbox" id="formation"
+		 name="aide" value="formation">
+		<label for="aide4">formations</label>
+
+		<input type="checkbox" id="autre"
+		name="aide" value="autre">
+		<label for="aide5">autre</label><br>
+
+		<label for="autre"> Si autre choisi, precisez: </label><br>
+		<input type="text" id="autre"><br>
+
+		<input type="reset" value="Effacer"> 
+		<input type="submit" value="Envoyer">
+
+		<br>
+		<br>
+		<br>
+	</form>
+	</td></tr>
+<table cellpadding=5 class = "navbar">
+		<tr><td>
+			<table class = "contenu_navbar">
+				<tr>
+					<td><img id="logo" src="logo_home.png"><a href="accueil.html">Home</a></td>
+					<td><a href="aides.html" ><img id="logo" src="logo_aide.png" >Aides</a></td>
+					<td><a href="Erasmus.html"><img id="logo" src="Drapeau europen.gif" >Erasmus</a></td>
+					<td><a href="Vivre pour pas cher.html"><img id="logo" src="bons-plans.png" >Bon plans</a></td>
+					<td><a href="mentions légales.html"><img id="logo" src="mentions legales.png" >Mentions</a></td>
+					<td><a class="active" href="#formulaire.html"><img id="logo" src="logo_formulaire.png" >Formulaire<a></td>
+				</tr>
+			</table>
+		</tr></td>
+</table>
+</table>
+</body>
+</body>
+<footer>
+<table class="table_footer">
+<td>
+<tr class="cellule_vivre"><p>
+	©2023 Compagny-All rights Reserved.<br>
+	
+	Contacts :<br>
+	elea.verdonk@gmail.com--anna.viroulaud@gmail.com<br>
+	
+	Adress : 16 rue Dufour, 44000 Nantes.<br>
+	
+	A propos de nous : Equipe avec un projet : vous faciliter la vie en regroupant un maximum d'informations sur le même site.<br>
+	
+	Liens importants :<br>
+	<a href="formulaire.html"> Formulaire d'aide </a> | <a href="mentions légales.html">Mentions légales</a><br>
+</tr>
+</td>
+<td>
+<tr class="cellule_vide">
+</tr>
+</td>
+</table>
+</p>
+</footer>

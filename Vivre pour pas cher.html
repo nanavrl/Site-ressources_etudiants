@@ -1,0 +1,143 @@
+<DOCTYPE HTML>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed&family=Montserrat:wght@500&family=Nunito:wght@500&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="feuille_style_aides_2.css">
+<title>Vivre pour pas cher</title>
+</head>
+
+<body class = "body_vivre">
+
+<table class = "vivre_pas_cher">
+	<tr><td class = "titre">Vivre pour pas cher</td></tr> <!-- haut de page -->
+	<tr><td> <!-- centre de la page -->
+			<table cellpadding=20 class = "tab_vivre">
+			<tr><td colspan = 5  class = "cellule_vide"></td></tr>
+			<tr>
+				<td class = "cellule_vide"></td>
+				<td class = "cellule_vivre"> <h2>Meubles</h2>
+				<li>Emmaüs ou par le site <a href="https://donnons.org/">Donnons.org</a>
+				<li>Les applications/sites internets tels que LeBonCoin ou encore Ebay
+				<li>Les brocantes et les magasins de déstokage de meubles ou encore les ressourceries qui gèent la récupération des meubles.
+				<li>Le bricolage
+				<li>les vides-greniers
+				</td>
+				<td class = "cellule_vide"></td>
+				<td class = "cellule_vivre"><h2>alimentation</h2>
+				<li>distibution de repas: La Croix-Rouge,<br> les Restaurants du Coeur et autres baques alimentaires
+				<li>distribution de produits/colis alimentaires : La Croix-Rouge française<br> les Restaurants du coeur, Le Secours Populaire
+				<li>épicerie sociale/solidaire
+				<li>L'application TooGoodToGo qui prmet de récuperer des paniers alimentares des invendus alimentaires des restaurants et autres commerçants, de la journée
+				<li> Pour les étudiants boursiers, vous pouvez bnéficier du repas à 1€ dans ls restos U et les cafétérias (<a href=https://www.crous-aix-marseille.fr/restauration/repas-a-1-euro-restos-u> <img id="logo" src="logo_infos.png">Informations</a>).
+				<p>En cas d'urgence, c'est à dire si vous n'avez plus rien à manger dans l'immédiat,<br>
+				identifiez l'association d'aide qlimentaire la plus proche de chez vouset présentez vous là bas,
+				généralement il vous sera proposé une aide de secous<br> mais pour pouvoir continuer à disposer de ces aides,<br>
+				il faudra prendre rendez-vous ave une assistante sociale</td>
+				<td class = "cellule_vide"></td>
+			</tr>
+			<tr><td colspan = 5 class = "cellule_vide"></td></tr>
+			<tr>
+				<td class = "cellule_vide"></td>
+				<td class = "cellule_vivre"><h2>S'habiller</h2>
+				<li>Les boutiques de seconde main
+				<li> Les sites internet tels que <a href="https://www.vinted.fr/"> Vinted</a> ou autres sites de revente/troc
+				<li> Se renseiger sur les promos, les points fidélités, etc...
+				<li> Emmaüs ou les marchés aux puces (<a href="https://emmaus-france.org/">Plus d'infos sur Emmaüs</a>)
+				</td>
+				<td class = "cellule_vide">
+				<td class = "cellule_vivre">
+				<h2>CARTE<!--Partie Javascript--></h2>
+				<div id="mapid" style="width: 500px; height: 300px;"></div>
+
+					<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+					<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+						<script type="text/javascript">
+						  var map = L.map('mapid').setView([47.218371,-1.553621], 20);
+						  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+							attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+						  }).addTo(map);
+						var marker = L.popup()
+							.setLatLng([47.22537413547114, -1.5447294040793698])
+							.setContent("Lycée Livet")
+							.addTo(map);
+						var marker = L.popup()
+							.setLatLng([47.16034923302268, -1.5592726289320016])
+							.setContent("Emmaüs")
+							.addTo(map);
+						var marker = L.popup()
+							.setLatLng([47.21946707002693, -1.5507599714558056])
+							.setContent("Ressourcerie")
+							.addTo(map);
+						var marker = L.popup()
+							.setLatLng([47.24975121291106, -1.5046163905460412])
+							.setContent("La Croix-Rouge")
+							.addTo(map);	
+						var marker = L.popup()
+							.setLatLng([47.22956356796652, -1.638518248942392])
+							.setContent("Mondial Relay")
+							.addTo(map);	
+						var marker = L.popup()
+							.setLatLng([47.25280284689599, -1.4875257593862417])
+							.setContent("Restos du Coeur")
+							.addTo(map);
+						var marker = L.popup()
+							.setLatLng([47.241719112941006, -1.5775700506818309])
+							.setContent("Atdec")
+							.addTo(map);	
+						var marker = L.popup()
+							.setLatLng([47.233327418261936, -1.5645237867394572])
+							.setContent("Insertion Jeunes")
+							.addTo(map);
+						</script>
+				</td>
+				</td>
+				<td class = "cellule_vide"></td>
+				<br>
+			</tr>	
+			</table>
+	</td></tr>
+<tr><td><!-- navibar -->
+			
+	<table cellpadding=5 class = "navbar">
+		<tr><td>
+		<table class = "contenu_navbar">
+		<tr>
+			<td><img id="logo" src="logo_home.png"><a href="accueil.html">Home</a></td>
+			<td><a href="aides.html" ><img id="logo" src="logo_aide.png" >Aides</a></td>
+			<td><a href="Erasmus.html"><img id="logo" src="Drapeau europen.gif" >Erasmus</a></td>
+			<td><a class="active" href="Vivre pour pas cher.html"><img id="logo" src="bons-plans.png" >Bon plans</a></td>
+			<td><a href="mentions légales.html"><img id="logo" src="mentions legales.png" >Mentions</a></td>
+			<td><a href="formulaire.html"><img id="logo" src="logo_formulaire.png" >Formulaire<a></td>
+		</tr>
+		</table>
+		</tr></td>
+			</table>
+
+</table>
+</body>
+
+
+<footer>
+<table class="table_footer">
+<td>
+<tr class="cellule_vivre"><p>
+	©2023 Compagny-All rights Reserved.<br>
+	
+	Contacts :<br>
+	elea.verdonk@gmail.com--anna.viroulaud@gmail.com<br>
+	
+	Adress : 16 rue Dufour, 44000 Nantes.<br>
+	
+	A propos de nous : Equipe avec un projet, vous faciliter la vie en regroupant un maximum d'informations sur le même site.<br>
+	
+	Liens importants :<br>
+	<a href="formulaire.html"> Formulaire d'aide </a> | <a href="mentions légales.html">Mentions légales</a><br>
+</tr>
+</td>
+<td>
+<tr class="cellule_vide">
+</tr>
+</td>
+</table>
+</p>
+</footer>
